@@ -21,6 +21,8 @@
 		7A4F5F181902C80B0063DB9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A4F5EFA1902C80B0063DB9B /* UIKit.framework */; };
 		7A4F5F201902C80B0063DB9B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A4F5F1E1902C80B0063DB9B /* InfoPlist.strings */; };
 		7A4F5F221902C80B0063DB9B /* SideBarLibinggenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4F5F211902C80B0063DB9B /* SideBarLibinggenTests.m */; };
+		7A4F5F2D1902C8CF0063DB9B /* LeftSliderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4F5F2C1902C8CF0063DB9B /* LeftSliderController.m */; };
+		7A4F5F301902C8F80063DB9B /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4F5F2F1902C8F80063DB9B /* MainTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		7A4F5F1D1902C80B0063DB9B /* SideBarLibinggenTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SideBarLibinggenTests-Info.plist"; sourceTree = "<group>"; };
 		7A4F5F1F1902C80B0063DB9B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7A4F5F211902C80B0063DB9B /* SideBarLibinggenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SideBarLibinggenTests.m; sourceTree = "<group>"; };
+		7A4F5F2B1902C8CF0063DB9B /* LeftSliderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftSliderController.h; sourceTree = "<group>"; };
+		7A4F5F2C1902C8CF0063DB9B /* LeftSliderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftSliderController.m; sourceTree = "<group>"; };
+		7A4F5F2E1902C8F80063DB9B /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		7A4F5F2F1902C8F80063DB9B /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +125,10 @@
 				7A4F5F0C1902C80B0063DB9B /* ViewController.m */,
 				7A4F5F0E1902C80B0063DB9B /* Images.xcassets */,
 				7A4F5EFD1902C80B0063DB9B /* Supporting Files */,
+				7A4F5F2B1902C8CF0063DB9B /* LeftSliderController.h */,
+				7A4F5F2C1902C8CF0063DB9B /* LeftSliderController.m */,
+				7A4F5F2E1902C8F80063DB9B /* MainTableViewController.h */,
+				7A4F5F2F1902C8F80063DB9B /* MainTableViewController.m */,
 			);
 			path = SideBarLibinggen;
 			sourceTree = "<group>";
@@ -252,6 +262,8 @@
 				7A4F5F0D1902C80B0063DB9B /* ViewController.m in Sources */,
 				7A4F5F071902C80B0063DB9B /* AppDelegate.m in Sources */,
 				7A4F5F031902C80B0063DB9B /* main.m in Sources */,
+				7A4F5F301902C8F80063DB9B /* MainTableViewController.m in Sources */,
+				7A4F5F2D1902C8CF0063DB9B /* LeftSliderController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
